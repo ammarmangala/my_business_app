@@ -1,5 +1,5 @@
 """
-URL configuration for my_sport_app project.
+URL configuration for my_business_app project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/6.0/topics/http/urls/
@@ -17,9 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
-import berekeningen.urls
-
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include(berekeningen.urls)),
+    path('', include('berekeningen.urls')),
 ]

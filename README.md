@@ -1,6 +1,8 @@
-# my_sport_app
+# my_business_app
 
 Django-opdracht met een eenvoudige bedrijfseconomische formule in MVT-structuur.
+
+> Django projectpackage: `my_business_app`
 
 ## Formule
 - **Input 1:** omzet
